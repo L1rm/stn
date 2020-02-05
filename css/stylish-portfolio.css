@@ -444,6 +444,16 @@ a:hover, a:focus, a:active {
   width: 100px !important;
 }
 
+@media (max-width: 992px) {
+  .logo { height: 100px;
+    width: 100px; }
+}
+
+@media (max-width: 992px) {
+  .logo-sh { height: 50px;
+    width: 50px; }
+}
+
 section#contact {
   padding: 100px 0;
   background-color: #212529;
